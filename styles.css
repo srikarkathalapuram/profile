@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.bio
+{
+    background: #ffffff;
+    color:#000000;
+    padding: 6px;
+    border-radius: 5cap;
+}
+.text
+{
+    background: #146ec2;
+    color:#90fa05;
+    padding: 6px;
+    border-radius: 5cap;
+    margin:10px;
+}
+
+/* Header */
+header {
+    background-color: #802ba177;
+    padding: 20px;
+    text-align: center;
+    color: rgb(93, 116, 107);
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+}
+
+header .profileinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileimg {
+    border-radius: 40%;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.linked,.github
+{
+    border-radius: 6cap;
+    width:70px;
+    height:50px;
+}
+
+.socialnav
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact a {
+    color: #4786b1;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #3498db;
+}
+
